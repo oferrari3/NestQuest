@@ -1,1 +1,23 @@
-body { font-family: sans-serif; background: #1a1a1a; color: #eee; }
+
+body {
+  font-family: sans-serif;
+  background: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+#mute-toggle {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background: #444;
+  color: white;
+  border: none;
+  border-radius: 50%;
+}

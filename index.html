@@ -1,1 +1,30 @@
-<!DOCTYPE html><html><head><title>NestQuest</title></head><body><h1>NestQuest</h1><p>Coming soon.</p></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NestQuest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="app">
+    <h1>NestQuest</h1>
+    <div id="question-box">
+      <p id="question">Loading question...</p>
+      <div class="answers">
+        <button onclick="answer(1)">1</button>
+        <button onclick="answer(2)">2</button>
+        <button onclick="answer(3)">3</button>
+        <button onclick="answer(4)">4</button>
+        <button onclick="answer(5)">5</button>
+      </div>
+    </div>
+    <div id="result" style="display:none;">
+      <h2>Your Nest:</h2>
+      <p id="city-result">[City will appear here]</p>
+    </div>
+  </div>
+  <button id="mute-toggle" onclick="toggleMusic()">🎵</button>
+  <script src="script.js"></script>
+</body>
+</html>
